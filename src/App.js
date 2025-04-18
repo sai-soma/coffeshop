@@ -11,7 +11,7 @@ import Footer from "./components/footer/Footer.js";
 import Orders from "./components/order/Orders.js";
 import Register from "./components/user/Register.js";
 
-function App() {
+function App() {    
   const PATH = process.env.REACT_APP_PATH;
   const { flag, setFlag } = useContext(AppContext);
 

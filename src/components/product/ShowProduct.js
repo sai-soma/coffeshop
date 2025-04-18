@@ -1,5 +1,6 @@
 import React from 'react'
 import AddButton from './AddButton'
+import Navbar from '../navbar/Navbar'
 export default function ShowProduct({product}) {
     const PATH = process.env.REACT_APP_PATH
 
