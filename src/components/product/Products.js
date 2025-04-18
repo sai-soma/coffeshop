@@ -23,7 +23,7 @@ export default function Products() {
       {products && !showProducts &&
         products.map((value) => (
           <div key={value.id} className="Product-items">
-            <div onClick={()=> handleClick(value)}><img className="Product-img" src={`${PATH}${value.image}`} alt={value.name} /></div>
+            <div onClick={()=> handleClick(value)}><img className="Product-img" src={value.image} alt={value.name} /></div>
             <h3>{value.name}</h3>
             <p style={{textAlign:"justify",padding:"10px"}}>{value.desc}</p>
             <div className="priceBtn">
